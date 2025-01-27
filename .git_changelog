@@ -5,3 +5,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 
 - [2025-01-10] chore: scaffold agentic-rag-benchmark configuration and models
 - [2025-01-18] feat: retrieval: implement dense in-memory vector store with cosine similarity
+- [2025-01-27] feat: embeddings: add deterministic n-gram hash embedding model
