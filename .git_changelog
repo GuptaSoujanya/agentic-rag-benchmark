@@ -8,3 +8,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-01-27] feat: embeddings: add deterministic n-gram hash embedding model
 - [2025-02-04] test: add unit tests for vector similarity search and top-k retrieval
 - [2025-02-13] feat: metrics: implement NDCG@K ranking evaluation metric
+- [2025-02-22] feat: metrics: implement Mean Reciprocal Rank (MRR) computation
