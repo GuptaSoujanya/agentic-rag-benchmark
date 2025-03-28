@@ -12,3 +12,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-03-02] feat: metrics: implement Recall@K and Precision@K metrics
 - [2025-03-11] test: add unit tests for retrieval metrics with edge case ground truths
 - [2025-03-19] feat: evaluators: implement atomic claim extraction from generated response
+- [2025-03-28] feat: evaluators: implement context grounding and faithfulness scoring
