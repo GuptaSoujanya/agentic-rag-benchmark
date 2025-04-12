@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rag_001",
+    "query": "What award did the creator of the Transformer architecture win?",
+    "ground_truth_doc_ids": ["doc_transformer_01", "doc_vaswani_02"],
+    "ground_truth_answer": "Vaswani and colleagues received the IEEE Milestone and Test of Time recognition.",
+    "corpus": [
+      {
+        "doc_id": "doc_transformer_01",
+        "text": "The Transformer architecture was introduced in 2017 in the paper 'Attention Is All You Need' co-authored by Ashish Vaswani and Noam Shazeer."
+      },
+      {
+        "doc_id": "doc_vaswani_02",
+        "text": "Ashish Vaswani and team won the prestigious NeurIPS Test of Time award and IEEE recognition for revolutionary neural attention mechanisms."
+      },
+      {
+        "doc_id": "doc_distractor_03",
+        "text": "The ResNet architecture was proposed by Kaiming He in 2015 for deep residual learning in computer vision."
+      }
+    ]
+  },
+  {
+    "id": "rag_002",
+    "query": "Which quantization technique uses mixed FP4 and INT8 for modern LLM deployment?",
+    "ground_truth_doc_ids": ["doc_quant_01"],
+    "ground_truth_answer": "AWQ and bitsandbytes provide mixed precision quantization.",
+    "corpus": [
+      {
+        "doc_id": "doc_quant_01",
+        "text": "Activation-aware Weight Quantization (AWQ) and modern FP4 microscaling allow high efficiency LLM inference with minimal perplexity degradation."
+      },
+      {
+        "doc_id": "doc_distractor_04",
+        "text": "Distributed training uses ZeRO stages to partition optimizer states across compute clusters."
+      }
+    ]
+  }
+]
