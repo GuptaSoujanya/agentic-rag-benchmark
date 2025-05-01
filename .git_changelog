@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-06] test: add unit tests for claim verification and hallucination detection
 - [2025-04-14] feat: evaluators: add context relevance sentence-level noise filter
 - [2025-04-23] feat: agent: implement MultiHopAgent reasoning and query refinement controller
+- [2025-05-01] test: add test suite verifying multi-hop agent retrieves secondary context
