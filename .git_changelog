@@ -19,3 +19,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-05-01] test: add test suite verifying multi-hop agent retrieves secondary context
 - [2025-05-10] ci: configure GitHub Actions automated matrix testing
 - [2025-05-19] docs: add architecture diagram for agentic retrieval evaluation in README
+- [2025-05-27] feat: cli: implement rag-eval command line benchmarking utility
