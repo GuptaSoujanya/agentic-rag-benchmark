@@ -21,3 +21,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-05-19] docs: add architecture diagram for agentic retrieval evaluation in README
 - [2025-05-27] feat: cli: implement rag-eval command line benchmarking utility
 - [2025-06-05] feat: reporters: add markdown report formatting for RAG evaluation
+- [2025-06-13] perf: optimize cosine similarity matrix computation for large document banks
