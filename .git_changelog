@@ -23,3 +23,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-06-05] feat: reporters: add markdown report formatting for RAG evaluation
 - [2025-06-13] perf: optimize cosine similarity matrix computation for large document banks
 - [2025-06-22] docs: add comparative performance table for dense vs hybrid retrieval
+- [2025-07-01] feat: evaluators: implement answer relevancy metric using semantic alignment
