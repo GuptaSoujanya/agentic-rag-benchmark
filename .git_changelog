@@ -29,3 +29,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-07-26] feat: reporters: add JSON telemetry export compatible with Ragas and TruLens
 - [2025-08-04] docs: update README with comprehensive evaluation benchmarks and methodology
 - [2025-08-13] feat: tasks: add HotpotQA multi-hop reasoning benchmark dataset parser
+- [2025-08-21] feat: metrics: evaluate supporting fact retrieval precision across hops
