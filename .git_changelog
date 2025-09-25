@@ -33,3 +33,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-08-30] test: add unit tests for HotpotQA supporting fact extraction
 - [2025-09-07] docs: add multi-hop retrieval benchmark case study in docs/
 - [2025-09-16] feat: agent: implement self-correction loop when retrieved context is irrelevant
+- [2025-09-25] test: verify self-correction loop reduces hallucination score by > 35%
