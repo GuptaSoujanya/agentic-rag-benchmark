@@ -37,3 +37,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-10-03] perf: parallelize atomic claim verification across sentences
 - [2025-10-12] fix: resolve unicode tokenization bug in claim extractor
 - [2025-10-20] feat: cli: add --k-values parameter to evaluate NDCG@3, NDCG@5, NDCG@10 simultaneously
+- [2025-10-29] chore: bump version to v0.6.0 and publish release notes
