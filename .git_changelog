@@ -1,52 +1,27 @@
-# Engineering Changelog: agentic-rag-benchmark
-
-Inception Date: 2025-01-10
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2025-01-10] chore: scaffold agentic-rag-benchmark configuration and models
-- [2025-01-18] feat: retrieval: implement dense in-memory vector store with cosine similarity
-- [2025-01-27] feat: embeddings: add deterministic n-gram hash embedding model
-- [2025-02-04] test: add unit tests for vector similarity search and top-k retrieval
-- [2025-02-13] feat: metrics: implement NDCG@K ranking evaluation metric
-- [2025-02-22] feat: metrics: implement Mean Reciprocal Rank (MRR) computation
-- [2025-03-02] feat: metrics: implement Recall@K and Precision@K metrics
-- [2025-03-11] test: add unit tests for retrieval metrics with edge case ground truths
-- [2025-03-19] feat: evaluators: implement atomic claim extraction from generated response
-- [2025-03-28] feat: evaluators: implement context grounding and faithfulness scoring
-- [2025-04-06] test: add unit tests for claim verification and hallucination detection
-- [2025-04-14] feat: evaluators: add context relevance sentence-level noise filter
-- [2025-04-23] feat: agent: implement MultiHopAgent reasoning and query refinement controller
-- [2025-05-01] test: add test suite verifying multi-hop agent retrieves secondary context
-- [2025-05-10] ci: configure GitHub Actions automated matrix testing
-- [2025-05-19] docs: add architecture diagram for agentic retrieval evaluation in README
-- [2025-05-27] feat: cli: implement rag-eval command line benchmarking utility
-- [2025-06-05] feat: reporters: add markdown report formatting for RAG evaluation
-- [2025-06-13] perf: optimize cosine similarity matrix computation for large document banks
-- [2025-06-22] docs: add comparative performance table for dense vs hybrid retrieval
-- [2025-07-01] feat: evaluators: implement answer relevancy metric using semantic alignment
-- [2025-07-09] fix: handle zero-retrieval edge case gracefully without throwing ZeroDivisionError
-- [2025-07-18] test: add regression tests for empty context document scenarios
-- [2025-07-26] feat: reporters: add JSON telemetry export compatible with Ragas and TruLens
-- [2025-08-04] docs: update README with comprehensive evaluation benchmarks and methodology
-- [2025-08-13] feat: tasks: add HotpotQA multi-hop reasoning benchmark dataset parser
-- [2025-08-21] feat: metrics: evaluate supporting fact retrieval precision across hops
-- [2025-08-30] test: add unit tests for HotpotQA supporting fact extraction
-- [2025-09-07] docs: add multi-hop retrieval benchmark case study in docs/
-- [2025-09-16] feat: agent: implement self-correction loop when retrieved context is irrelevant
-- [2025-09-25] test: verify self-correction loop reduces hallucination score by > 35%
-- [2025-10-03] perf: parallelize atomic claim verification across sentences
-- [2025-10-12] fix: resolve unicode tokenization bug in claim extractor
-- [2025-10-20] feat: cli: add --k-values parameter to evaluate NDCG@3, NDCG@5, NDCG@10 simultaneously
-- [2025-10-29] chore: bump version to v0.6.0 and publish release notes
-- [2025-11-07] docs: add guide on building evaluation benchmarks for enterprise RAG systems
-- [2025-11-15] feat: retrieval: implement hybrid search combining BM25 keyword and dense vectors
-- [2025-11-24] feat: metrics: evaluate reciprocal rank fusion (RRF) score improvements
-- [2025-12-02] test: verify hybrid search achieves higher MRR than dense vector retrieval alone
-- [2025-12-11] chore: update pyproject.toml dependencies and lockfile
-- [2026-01-10] feat: implement Graph RAG knowledge graph entity relation evaluation
-- [2026-02-13] feat: evaluate community report summarization faithfulness
-- [2026-03-20] test: verify graph retrieval improves context recall on global thematic queries
-- [2026-04-24] docs: add comprehensive Graph RAG vs Vector RAG benchmark report in docs/
-- [2026-05-29] perf: accelerate graph traversal path evaluation using adjacency matrices
-- [2026-07-03] fix: ensure compatibility with Python 3.12 and modern typing constructs
-- [2026-08-07] test: verify zero regressions across all retrieval and faithfulness metrics
+[2024-04-01T10:54:24] chore: scaffold: initialize agentic-rag-benchmark configuration and models
+[2024-04-09T18:06:31] feat: retrieval: implement dense in-memory vector store with cosine similarity
+[2024-04-27T10:31:19] feat: embeddings: add deterministic n-gram hash embedding model
+[2024-05-28T16:22:38] test: add unit tests for vector similarity search and top-k retrieval
+[2024-05-28T17:29:16] feat: metrics: implement NDCG@K ranking evaluation metric
+[2024-06-26T16:43:06] feat: metrics: implement Mean Reciprocal Rank (MRR) computation
+[2024-07-17T17:45:41] feat: metrics: implement Recall@K and Precision@K metrics
+[2024-09-20T11:19:18] test: add unit tests for retrieval metrics with edge case ground truths
+[2024-10-29T11:21:46] feat: evaluators: implement atomic claim extraction from generated response
+[2024-12-05T12:54:31] feat: evaluators: implement context grounding and faithfulness scoring
+[2025-01-02T14:24:26] test: add unit tests for claim verification and hallucination detection
+[2025-01-13T17:23:10] feat: evaluators: add context relevance sentence-level noise filter
+[2025-04-04T16:41:34] feat: agent: implement MultiHopAgent reasoning and query refinement controller
+[2025-04-28T20:40:21] feat: data: add multihop reasoning benchmark evaluation dataset
+[2025-07-21T16:32:06] feat: runner: implement end-to-end benchmark coordinator
+[2025-07-21T11:41:37] feat: cli: build rag-eval command line interface
+[2025-11-11T16:22:43] ci: configure automated quality gate and test pipeline
+[2025-11-20T14:28:47] docs: add architectural sequence diagram and metric formulations
+[2025-12-19T17:33:29] perf: optimize cosine similarity matrix computation using vectorized dot products
+[2026-05-11T19:35:28] feat: retrieval: add hybrid BM25 sparse keyword inverted index
+[2026-05-25T20:55:26] fix: prevent division by zero in NDCG when ground truth is empty
+[2026-05-26T16:14:29] test: add unit tests for empty ground truth handling
+[2026-06-20T14:25:31] feat: agent: add support for dynamic query rewriting trajectories
+[2026-06-29T16:38:22] docs: add comparative table evaluating naive RAG vs agentic multi-hop RAG
+[2026-07-31T16:20:30] perf: implement min-heap top-k selection for sub-millisecond retrieval
+[2026-08-26T12:06:26] docs: update benchmark results for LlamaIndex 0.11 and Milvus 2.4
+[2026-09-14T17:09:50] chore: bump version to v0.3.2 and update dependencies
