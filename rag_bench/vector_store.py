@@ -33,3 +33,5 @@ class InMemoryVectorStore:
             scored.append((d, dot))
         scored.sort(key=lambda x: x[1], reverse=True)
         return scored[:top_k]
+
+    # BM25 Sparse Inverted Index Integration
