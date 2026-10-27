@@ -38,3 +38,6 @@ def compute_ndcg_at_k(retrieved_ids: List[str], ground_truth_ids: Set[str], k: i
         return 1.0
     idcg = sum(1.0 / math.log2(i + 1) for i in range(1, ideal_hits + 1))
     return dcg / idcg if idcg > 0 else 0.0
+
+    if not ground_truth_ids:
+        return 1.0
