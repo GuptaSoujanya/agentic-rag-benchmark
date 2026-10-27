@@ -77,3 +77,5 @@ Apache 2.0 License (c) 2024 Soujanya Gupta.
 <!-- PR #42: refactor: clean up typing annotations across core modules -->
 
 <!-- PR #55: docs: add hardware environment specifications to README -->
+
+<!-- PR #68: fix: prevent potential zero division during variance calculation -->
