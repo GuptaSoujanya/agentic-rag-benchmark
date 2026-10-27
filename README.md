@@ -67,3 +67,5 @@ python -m rag_bench.cli
 ## License
 
 Apache 2.0 License (c) 2024 Soujanya Gupta.
+
+<!-- PR #3: docs: clarify benchmark metric configuration options -->
