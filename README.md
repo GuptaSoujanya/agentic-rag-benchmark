@@ -83,3 +83,5 @@ Apache 2.0 License (c) 2024 Soujanya Gupta.
 <!-- PR #81: feat: add timestamp logging to telemetry output -->
 
 <!-- PR #94: chore: update pre-commit linter configurations -->
+
+<!-- Milestone: test: add synthetic multi-hop query regression validation -->
